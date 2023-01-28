@@ -1,4 +1,3 @@
-const discord = require('discord.js')
+require('dotenv').config();
 
-
-client.login(token)
+client.login(process.env.TOKEN);
